@@ -170,7 +170,7 @@
         {
           "type": "extensions",
           "name": "installkibana",
-          "apiVersion": "2015-06-15",
+          "apiVersion": "2017-03-30",
           "location": "[parameters('location')]",
           "dependsOn": [
             "[resourceId('Microsoft.Compute/virtualMachines', variables('vmName'))]"
